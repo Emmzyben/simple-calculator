@@ -1,0 +1,67 @@
+   <!--Author: Emmanuel chinwendu Amadi-->
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <link rel="stylesheet" href="cal2.css">
+    
+</head>
+<body>
+    
+    <div class="display">
+    <h2>
+        <p>&rarr; STANDARD CALCULATOR</p>
+    </h2>
+    <p><input type="text" id="result"></p>
+    </div>
+
+    <!--these are the numbers that will be punched on to do the calculations-->
+    <div class="main">
+    <div class="lst">
+        <ul>
+            <li><input type="button" value="1" onclick="dis('1')"></li>
+            <li> <input type="button" value="2" onclick="dis('2')"></li>
+            <li><input type="button" value="3" onclick="dis('3')"></li>
+            <li><input type="button" value="4" onclick="dis('4')"></li>
+        </ul>
+    </div>
+    <div class="second">
+        <ul>
+            <li><input type="button" value="5" onclick="dis('5')"></li>
+            <li> <input type="button" value="6" onclick="dis('6')"></li>
+            <li><input type="button" value="7" onclick="dis('7')"></li>
+            <li><input type="button" value="8" onclick="dis('8')"></li>
+        </ul>
+   </div>
+   <div class="third">
+        <ul>
+            <li><input type="button" value="9" onclick="dis('9')"></li>
+            <li> <input type="button" value="0" onclick="dis('0')"></li>
+            <li><input type="button" value="." onclick="dis('.')"></li>
+            <li><input type="button" value="C" onclick="clr()"></li>
+        </ul>
+    </div>
+   </div>
+   <div class="sumal">
+    <div class="sums">
+        <ul>
+            <li><input type="button" value="+" onclick="dis('+')"></li>
+            <li> <input type="button" value="-" onclick="dis('-')"></li>
+            <li><input type="button" value="*" onclick="dis('*')"></li>
+            <li><input type="button" value="/" onclick="dis('/')"></li>
+        </ul>
+    </div>
+</div>
+<div class="contain">
+    <div class="equal">
+        <ul>
+            <li><input type="button" value="=" onclick="equal()"></li>
+            <li><input type="button" value="sqrt" onclick="solve()"></li>
+        </ul>
+</div>
+    </div>
+    <div class="fixed"><h2>Group 9 Solidity project</h2></div>
+    
+        
+    <script src="cal.js"></script>
+</body>

@@ -1,0 +1,179 @@
+
+/*
+Author: Emmanuel Chinwendu Amadi
+Group 9 project
+done by group
+*/
+* {
+    box-sizing: border-box;
+  }
+ 
+.display{
+    border: 1px solid black;
+    position:static;
+    height: 150px;
+    background-color: wheat;
+}
+
+/*for the main div*/
+.main{
+    float: left;
+}
+
+/*for the 1st div*/
+
+.lst ul li {
+list-style-type:none;
+display: inline-block;
+text-align: center;
+padding: 0px;
+border:2px solid black;
+position: relative;
+top: 10px;
+margin-right: 20px;
+}
+.lst ul li:hover {background-color: #3e8e41}
+
+.lst ul li:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*for the 2nd div*/
+.second ul li {
+display: inline-block;
+text-align: center;
+padding: 0px;
+border:2px solid black;
+position: relative;
+top: 30px;
+margin-right: 20px;
+}
+.second ul li:hover {background-color: #3e8e41}
+
+.second ul li:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*for the 3rd div*/
+.third ul li {
+display: inline-block;
+text-align: center;
+padding: 0px;
+border:2px solid black;
+position: relative;
+top: 60px;
+margin-right: 20px;
+}
+.third ul li:hover {background-color: #3e8e41}
+
+.third ul li:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*for the sums div*/
+.sumal{
+    float: right;
+}
+.sums ul li {
+display: block;
+position: relative;
+right: 10px;
+border:2px solid black;
+text-align: center;
+padding: 0px;
+
+}
+.sums ul li:hover {background-color: #3e8e41}
+
+.sums ul li:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*.lonely ul li:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } 
+.lonely ul li:active {
+    background-color: #3e8e41}
+.lonely {
+  background-color: red;
+}*/
+
+ul li  {
+font-size:30px;
+background-color: grey;
+box-shadow: 5px 5px 5px red;
+}
+.equal ul li{
+display: block;
+position: relative;
+top: 5px;
+border:2px solid black;
+text-align: center;
+padding: 0px;
+margin-bottom: 10px;
+}
+
+.equal ul li:hover {background-color: #3e8e41}
+
+.equal ul li:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  left: 40%;
+  text-shadow: 2px 2px white;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+}
+/* The animation code */
+@keyframes example {
+  0%   {color:red; left:0px; bottom:0px;}
+  25%  {color:cyan; left:200px; bottom:0px;}
+  50%  {color:purple; left:0px; bottom:0px;}
+  75%  {color: yellow; left:200px; bottom:0px;}
+  100% {color:red; left:0px; bottom:0px;}
+}
+
+
+.contain{
+  float: right;
+}
+
+body{
+    background-color: black;
+
+}
+#result{
+  font-size:50px;
+  position: fixed;
+  left: 25px;
+  top: 60px;
+}
+   
+input[type="button"]{
+  background-color: gray;
+  font-size: 25px;
+  border: 1px solid gray;
+  padding: 28px;
+}
+input[type="button"]:hover{background-color: #3e8e41}
+
+input[type="button"]:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px red;
+}
